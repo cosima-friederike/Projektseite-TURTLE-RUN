@@ -4,7 +4,7 @@
 von Cosima und Friederike, 12bc
 
 ## Inhaltsverzeichnis
-[Projektvorstellung](https://github.com/cosima-friederike/Projektseite-TURTLE-RUN/edit/main/README.md#projektvorstellung)
+[Projektvorstellung](https://github.com/cosima-friederike/Projektseite-TURTLE-RUN/blob/main/README.md#projektvorstellung)
 
 [Programm](https://github.com/cosima-friederike/Projektseite-TURTLE-RUN/blob/main/README.md#programm)
 
