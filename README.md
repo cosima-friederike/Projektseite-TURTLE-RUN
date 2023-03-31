@@ -8,7 +8,7 @@ von Cosima und Friederike, 12bc
 
 [Programm](https://github.com/cosima-friederike/Projektseite-TURTLE-RUN/blob/main/README.md#programm)
 
-[Aufbau und Code]
+[Aufbau und Code](https://github.com/cosima-friederike/Projektseite-TURTLE-RUN/blob/main/README.md#aufbau-und-code)
 
 [Arbeitstagebuch](https://github.com/cosima-friederike/Arbeitsprotokoll-2#arbeitsprotokoll-2-von-cosima-und-friederike)
 
