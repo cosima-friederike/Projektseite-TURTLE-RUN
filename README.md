@@ -17,3 +17,12 @@ TURTLE RUN ist ein 2D-Spiel, das sich in einer Unterwasserwelt abspielt. Der Spi
 ## Programm
 Dieses Spiel wurde mit dem Programmm SpriteLab entwickelt. Ähnlich wie bei Snap! erstellt man bei SpriteLab keine eigenen Codes, sondern arbeitet mit dem vorgegebenen Quellcode und kann die verfügbaren Blöcke nach eigenen Ideen und Vostellungen zusammenbauen. Durch die Blockstruktur ist das Programm recht übersichtlich. Zusätzlich können neue Blöcke erstellt werden, wobei auch da nur die bereits verfügbaren Funktionen zur Verfügung stehen. Auch können die Blöcke nicht beliebig zusammengefügt werden, da jeweils nur bestimmte Arten von Blöcken zusammenpassen. 
 ## Aufbau und Code 
+Bei TURTLE RUN gibt es insgesamt acht verschiedene Sprites beziehungsweise Kostüme: Die Schildkröte, die helle und dunkle Muschel, die Wasserblase, den Startbutton, den Pokal und die "TURTLE RUN"- und "GAME OVER"-Schriftzüge. 
+### TURTLE RUN
+### Startbutton
+### Schildkröte
+### Helle Muschel
+### Dunkle Muschel
+### Wasserblase
+### Pokal
+### GAME OVER
