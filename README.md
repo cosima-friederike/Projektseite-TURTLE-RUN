@@ -14,7 +14,7 @@ von Cosima und Friederike, 12bc
 
 ## Projektvorstellung
 TURTLE RUN ist ein 2D-Spiel, das sich in einer Unterwasserwelt abspielt. Der Spieler übernimmt dabei mithilfe der vier Pfeiltasten die Steuerung des Hauptsprites, der Schildkröte. Das Konzept des Spiels liegt darin, dass die Schildkröte helle Muscheln einsammeln und dunklen Muscheln ausweichen muss. Um einen Punkt zu erzielen, muss der Spieler jedoch nicht bloß eine helle Muschel berühren, sondern zusätzlich eine Wasserblase, die nach dem Berühren der richtigen Muschel entsteht, zum Platzen bringen. Dabei startet das Spiel recht einfach, da es zu Beginn nur helle Muscheln gibt und erst mit jeder gesammelten Muschel beziehungsweise Wasserblase eine dunkle Muschel erscheint. Mit jeder berührten Blase steigt der score um 1, wird jedoch eine falsche Muschel berührt, sinkt der Punktestand um 1. Wenn ein Punkt erspielt wurde, wird die jeweilige Wasserblase entfernt und eine neue helle Muschel wird erstellt. Außerdem kommt auch immer eine neue dunkle Muschel dazu. So wird das Spiel im Verlauf einer Runde immer schwieriger.
-Sobald der Spieler 10 Punkte erspielt hat, erscheint in der Mitte des Spielfelds ein Pokal, den er einsammeln muss, damit die Runde als gewonnen endet. Um die Mindestanzahl an Punkten zu sammeln, hat der Spieler 2 Minuten Zeit, sonst endet das Spiel und der Bildschrirm zeigt "GAME OVER" an. 
+Sobald der Spieler 10 Punkte erspielt hat, erscheint in der Mitte des Spielfelds ein Pokal, den er einsammeln muss, damit die Runde als gewonnen endet. Um die Mindestanzahl an Punkten zu sammeln, hat der Spieler 1 Minute Zeit, sonst endet das Spiel und der Bildschrirm zeigt "GAME OVER" an. 
 ## Programm
 Dieses Spiel wurde mit dem Programmm SpriteLab entwickelt. Ähnlich wie bei Snap! erstellt man bei SpriteLab keine eigenen Codes, sondern arbeitet mit dem vorgegebenen Quellcode und kann die verfügbaren Blöcke nach eigenen Ideen und Vostellungen zusammenbauen. Durch die Blockstruktur ist das Programm recht übersichtlich. Zusätzlich können neue Blöcke erstellt werden, wobei auch da nur die bereits verfügbaren Funktionen zur Verfügung stehen. Auch können die Blöcke nicht beliebig zusammengefügt werden, da jeweils nur bestimmte Arten von Blöcken zusammenpassen. 
 ## Aufbau und Code 
@@ -45,4 +45,10 @@ Die dunklen Muscheln dürfen nicht von der Schildkröte berührt werden. Andernf
 ![image](https://user-images.githubusercontent.com/111414772/230613059-52f778f9-ad96-4bb4-9d03-6c31d59a5b01.jpeg)
 Bild 5
 #### Pokal
+Wird ein score von 10 erreicht, taucht ein Pokal auf. Er bewegt sich auf einer Horizontalen und muss für einen Sieg eingesammelt werden. Außerdem fängt der Pokal auch an zu schrumpfen. Der Spieler muss also mölichst schnell zu dem Pokal gelangen. Sobald der Pokal berührt wurde, erscheint ein neuer Hintergrund mit den Worten "Concrats!" und "you won :)".
+![image](https://user-images.githubusercontent.com/111414772/230616252-fcbcd365-f90a-4099-be33-f05af7093c4a.jpeg)
+Bild 6
 #### GAME OVER
+Falls der Spieler es nicht schafft, den Pokal innerhalb der 60 Sekunden zu sammeln, erscheint ein dunkler Hintergund mit dem Schriftzug GAME OVER. Der Schriftzug ist, ebenso wie die Worte TURTLE RUN zu Beginn des Spiels, eine Sprite, der ansonsten keine weitere Funktion besitzt. Allerdings stammt dieser Sprite aus der Vorlage und wurde nicht elber von uns kreiert.
+![image](https://user-images.githubusercontent.com/111414772/230617819-559de529-af47-42a7-bed4-7ab2a919d0c8.jpeg)
+Bild 7
